@@ -9,14 +9,14 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	Novice::Initialize(kWindowTitle, 1280, 720);
 
 	// キー入力結果を受け取る箱
-	char keys[256] = {0};
-	char preKeys[256] = {0};
+	char keys[256] = { 0 };
+	char preKeys[256] = { 0 };
 
 	///
 	/// ↓変数の宣言ここから
 	///
 
-	
+
 
 	///
 	/// ↑変数の宣言ここまで
@@ -44,6 +44,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 
 		Novice::ScreenPrintf(100, 100, "LC1A_05_Oono_Youji");
+		Novice::ScreenPrintf(100, 130, "2023 / 10/11");
 
 		///
 		/// ↑描画処理ここまで
