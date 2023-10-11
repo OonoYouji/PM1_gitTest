@@ -16,7 +16,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	/// ↓変数の宣言ここから
 	///
 
-
+	
 
 	///
 	/// ↑変数の宣言ここまで
@@ -42,6 +42,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓描画処理ここから
 		///
+
+		Novice::ScreenPrintf(100, 100, "LC1A_05_Oono_Youji");
 
 		///
 		/// ↑描画処理ここまで
