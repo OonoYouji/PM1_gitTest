@@ -2,6 +2,13 @@
 
 const char kWindowTitle[] = "LC1A_05_オオノ_ヨウジ_gitTest";
 
+struct Player {
+	int posX;
+	int posY;
+	int width;
+	int height;
+};
+
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
