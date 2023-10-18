@@ -63,7 +63,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			player.width,
 			player.height,
 			0.0f,
-			0x00000000,
+			0xFFFFFFFF,
 			kFillModeSolid
 		);
 
