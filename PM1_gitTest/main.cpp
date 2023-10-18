@@ -23,7 +23,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	/// ↓変数の宣言ここから
 	///
 
-
+	Player player;
+	player.posX = 640;
+	player.posY = 360;
+	player.width = 32;
+	player.height = 32;
 
 	///
 	/// ↑変数の宣言ここまで
@@ -52,6 +56,16 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 		Novice::ScreenPrintf(100, 100, "LC1A_05_Oono_Youji");
 		Novice::ScreenPrintf(100, 130, "2023 / 10/11");
+
+		Novice::DrawBox(
+			player.posX,
+			player.posY,
+			player.width,
+			player.height,
+			0.0f,
+			0xdd0000dd,
+			kFillModeSolid
+		);
 
 		///
 		/// ↑描画処理ここまで
