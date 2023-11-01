@@ -71,7 +71,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 		Novice::ScreenPrintf(100, 150, "プルリクエストの作成");
 
-
+		// コンフリクトをしない
 
 
 		///
