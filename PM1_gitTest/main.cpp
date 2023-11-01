@@ -67,6 +67,10 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			kFillModeSolid
 		);
 
+
+		Novice::ScreenPrintf(100, 150, "プルリクエストの作成");
+
+
 		///
 		/// ↑描画処理ここまで
 		///
